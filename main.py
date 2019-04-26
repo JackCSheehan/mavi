@@ -4,7 +4,7 @@ Author: Jack Sheehan
 Software Title: MAVI (Musical Assistance for the Visually Impaired)
 
 Description: A simple peice of software that aids visually impaired muscicians in learning their music. 
-after inputing notes as an RTTTL string, a text-to-speech playback can be downloaded as an MP3 and 
+After inputing notes as an RTTTL string, a text-to-speech playback can be downloaded as an MP3 and 
 replayed anywhere.
 
 Technologies Used:
@@ -14,7 +14,7 @@ Technologies Used:
 	- gTTS 2.0.3 (github.com/pndurette/gTTS)
 
 Copyright(c) 2019 Jack Sheehan
-Licensed [LICENSED INFO]
+Licensed under the MIT license.
 '''
 
 def main():
