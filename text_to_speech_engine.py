@@ -2,6 +2,7 @@
 Module Description: A simplified interface for interacting with the gTTS text-to-speech engine.
 
 gTTS license:
+
 The MIT License (MIT)
 
 Copyright © 2014-2018 Pierre Nicolas Durette
@@ -39,6 +40,3 @@ def save_to_mp3(song_title, composer, default_octave, RTTTL_string):
 	
 	text_to_speech = gTTS(text = RTTTL_as_readable_string, lang = LANGUAGE)
 	text_to_speech.save(AUDIO_FOLDER_PATH + song_title + FILE_FORMAT)
-
-
-
