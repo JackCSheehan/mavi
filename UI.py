@@ -48,7 +48,30 @@ main_menu_title.pack(pady = Y_PADDING)
 enter_note_entry_mode_button = Button(main_menu, text = "Note Entry Mode", font = BUTTON_FONT, command = display_note_entry_menu)
 enter_note_entry_mode_button.pack(pady = Y_PADDING)
 
-information_button = Button(main_menu, text = "Information", font = BUTTON_FONT, command = lambda:messagebox.showinfo("Information", "(c) 2019 Jack Sheehan\n\nDeveloped Using:\nPython 3.6\nTkinter 8.6\nRTTTL (wikipedia.org/wiki/Ring_Tone_Transfer_Language)\ngTTS 2.0.3 (github.com/pndurette/gTTS)\n\nSource located at: github.com/CodeTimesTen"))
+information_button = Button(main_menu, text = "Information", font = BUTTON_FONT, command = lambda:messagebox.showinfo("Information", """(c) 2019 Jack Sheehan\n\nDeveloped Using:\nPython 3.6\nTkinter 8.6\nRTTTL (wikipedia.org/wiki/Ring_Tone_Transfer_Language)\ngTTS 2.0.3 (github.com/pndurette/gTTS)\n\nSource located at: github.com/CodeTimesTen\n\nThe MIT License (MIT)
+
+gTTS License:
+
+Copyright © 2014-2018 Pierre Nicolas Durette
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""))
 information_button.pack()
 
 exit_button = Button(main_menu, text = "Exit", font = BUTTON_FONT, command = quit)
