@@ -1,5 +1,5 @@
 # mavi
-Developed during the Spring of 2019.
+Developed during the spring of 2019.
 
 Musical Assistance for the Visually Impaired (MAVI) is an open source program that aids visually impaired musicians in learning their music.
 
@@ -9,7 +9,7 @@ Songs are stored in RTTTL format. RTTTL is a music language created by Nokia. Fo
 
 MAVI provides the user with input areas for RTTTL code that are then parsed, converted to speech using the gTTS library, and downloaded as an MP3. The text-to-speech voice reads out notes, note lengths, and note octaves so that visually impaired musicians gain a basic technical understanding of a specific piece of music.
 
-# Technical Challenges/What I Learned
+# Technical Highlights
 * Parsed RTTTL code into a format that can be more easily read by text-to-speech
 * Practiced Python Tkinter GUI creation
 * Learned how to use the gTTS library in Python
