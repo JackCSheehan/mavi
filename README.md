@@ -1,5 +1,4 @@
 # mavi
-Developed during the spring of 2019.
 
 Musical Assistance for the Visually Impaired (MAVI) is an open source program that aids visually impaired musicians in learning their music.
 
