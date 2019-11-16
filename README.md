@@ -1,6 +1,6 @@
 # mavi
 
-Musical Assistance for the Visually Impaired (MAVI) is an open source program that aids visually impaired musicians in learning their music.
+Musical Assistant for the Visually Impaired (MAVI) is an open source program that aids visually impaired musicians in learning their music.
 
 MAVI is programmed in Python 3.6 and takes advantage of both Tkinter and the gTTS library (https://github.com/pndurette/gTTS). 
 
